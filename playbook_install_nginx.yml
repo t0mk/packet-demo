@@ -1,0 +1,9 @@
+
+- name: Demo playbook
+  hosts: ubuntu_16_04
+  tasks:
+  - name: Update repositories cache and install nginx
+    apt:
+      name: nginx
+      update_cache: yes
+

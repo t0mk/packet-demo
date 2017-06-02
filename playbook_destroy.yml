@@ -1,0 +1,16 @@
+# playbook_destroy.yml
+
+- name: destroy devices
+  hosts: localhost
+  tasks:
+
+  - packet_device:
+      project_id: 89b497ee-5afc-420a-8fb5-56984898f4df
+      hostnames: myserver1
+      state: absent
+
+  - packet_device:
+      project_id: 89b497ee-5afc-420a-8fb5-56984898f4df
+      hostnames: myserver2
+      state: absent
+

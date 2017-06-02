@@ -1,0 +1,7 @@
+- name: release ip address from a server
+  hosts: localhost
+  tasks:
+  - packet_ip_address:
+      project_id: 89b497ee-5afc-420a-8fb5-56984898f4df
+      ip_address: "147.75.201.78"
+      state: absent
