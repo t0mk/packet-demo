@@ -110,4 +110,11 @@ Some of the pending PRs rot, and then get conflict, which makes them even more l
 
 When someone comments, I get an email, and I can fix, but when a commit to devel creates conflict with my PRs, I don't get to know about it.
 
+# Pending PR
+
+- Fix for the inventory script that makes it possible to refer to hosts by their hostname: https://github.com/ansible/ansible/pull/21069
+- Patches to docs, in order to explicitly mention that Packet is _hardware_ hosting: https://github.com/ansible/ansible/pull/22308
+- Fix (improvements) for packet_device module: https://github.com/ansible/ansible/pull/23127 
+- Module for assigning IP addresses to devices: https://github.com/ansible/ansible/pull/23133 
+
 
