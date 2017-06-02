@@ -55,7 +55,7 @@ We supply the dynamic inv with the `-i` flag of ansible-playbook.
 ```
 # When the devices are already in => active <=
 
-$ ansible-playbook -u root -i ansible_devel/contrib/inventory/packet_net.py playbook_install_nginx.yml
+$ ansible-playbook -vv -u root -i ansible_devel/contrib/inventory/packet_net.py playbook_install_nginx.yml
 
 # if ssh doesn't work, try $ ssh-keygen -f ~/.ssh/known_hosts -R <ip>
 ```
