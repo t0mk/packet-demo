@@ -67,6 +67,14 @@ This is not merged yet. I use modified Ansible, namely with these 2 PRs merged:
 - https://github.com/ansible/ansible/pull/23133
 
 ```
+$ cp ansible_devel -r ansible_packet_ip_address
+$ cd ansible_packet_ip_address
+$ git fetch origin pull/23127/head:device_improvements
+$ git merge device_improvements
+# resolve simple comment conflict
+$ git fetch origin pull/23133/head:packet_ip
+$ git merge packet_ip
+$ cd ..
 $ source ansible_packet_ip_address/hacking/env-setup
 ```
 
