@@ -84,6 +84,8 @@ Adding IP in [playbook_ip_assign.yml](playbook_ip_assign.yml)
 $ ansible-playbook playbook_ip_assign.yml
 ```
 
+Show that IP is on device.
+
 Releasing IP in [playbook_ip_release.yml](playbook_ip_release.yml) 
 
 ```
